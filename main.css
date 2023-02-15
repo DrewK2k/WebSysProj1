@@ -1,0 +1,70 @@
+	
+	
+	body{
+		border: 15px solid darkgreen;
+	}
+	
+	
+	h1{
+		color: darkgreen;
+		text-align: center;
+		font-size: 40pt;
+		--background: radial-gradient(white 40%, green 50%);
+	}
+	body > main > section > h2 {
+	text-align: center;
+	color: black;
+	font-size: 25pt;
+	}
+	br > div {
+		text-align: center;
+	}
+	
+	br > div > a{
+	text-align: center;
+	}
+	
+	p {
+		color: black;
+		font-size: 14pt;
+		text-align: center;
+		border: solid 3px;
+		border-color: darkgreen;
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		background: #CFC493;
+	}
+	
+	img {
+		border: solid 3px; 
+        border-color: darkgreen;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width= "248" height= "285";
+	}
+	
+	 div {
+		text-align: center;
+	}
+	
+	a:link {
+		color: blue;
+		position: relative;
+		
+	}
+	
+	a:visited {
+		color: red;
+	}
+	a:hover {
+		text-shadow: 0 0 3px red, 0 0 6px purple;
+	}
+	
+	footer {
+		
+		border-top: solid 3px;
+		border-color: darkgreen;		
+	}
+	
