@@ -1,0 +1,57 @@
+
+	h1{
+		color: darkgreen;
+		text-align: center;
+		font-size: 40pt;
+	}
+	body > main > section > h2 {
+	text-align: center;
+	color: green;
+	font-size: 25pt;
+	}
+	br > div {
+		text-align: center;
+	}
+	
+	br > div > a{
+	text-align: center;
+	}
+	
+	p {
+		color: black;
+		font-size: 14pt;
+		text-align: center;
+		border: solid 3px;
+		border-color: darkgreen;
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		background: #CFC493;
+	}
+	
+	img {
+		border: solid 3px; 
+        border-color: darkgreen;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width= "248" height= "285";
+	}
+	
+	 div {
+		text-align: center;
+	}
+	
+	a:link {
+		color: blue;
+		
+	}
+	
+	a:visited {
+		color: red;
+	}
+	a:hover {
+		color: yellow;
+		background-color: purple;
+		
+	}
