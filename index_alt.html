@@ -1,8 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <link rel="stylesheet" href="Alternate.css">
+  <link id ="Style" rel="stylesheet" href="Alternate.css">
+  <script>
+  <!--reference https://www.geeksforgeeks.org/how-to-switch-between-multiple-css-stylesheets-using-javascript/ -->
+  function toggleStyle() {
+
+            var Style = document.getElementsByTagName('link')[0];
+ 
+            if (Style.getAttribute('href') == 'main.css') {
+                Style.setAttribute('href', 'Alternate.css');
+            } else {
+                Style.setAttribute('href', 'main.css');
+            }
+        }
+		</script>
     <meta charset="UTF-8" />
   </head>
   <body>
@@ -59,6 +71,8 @@
       </p>
     </section>
     <br><div><a href="Drew_Klotz_Resume.pdf"> Click Here to Download Andrew's Resume!</a></div>
+	      
+    <button onclick="toggleStyle()">Switch Themes</button>
     </main>
 
     <br><footer>Group 8 &copy; 2023 All Rights Reserved</footer>
