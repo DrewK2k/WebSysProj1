@@ -12,9 +12,6 @@ img {
 		text-align: center;
 		font-size: 40pt;
 		background: radial-gradient(white 40%, green 50%);
-	}
-	h2.subheading{
-	color: white;		
 }
 	body > main > section > h2 {
 	text-align: center;
@@ -103,10 +100,10 @@ th, td {
 	background-color: #F1E5AC;
 	text-align: center;
 }
-h1.subheading {
+subheading {
 	font-family: GT America Extended, Times New Roman;
 	font-size: 25px;
-	color: blue;
+	color: lightblue;
 	-webkit-text-stroke: 1px black;
 }
 
