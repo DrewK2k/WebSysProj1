@@ -46,14 +46,7 @@ a:active {
 a {
 	color: gold;
 }
-
-a:hover {
-	background-color: green;
-	text-decoration: normal;
-}
-
 	
-
 .navtest {
 	background-color: #333;
 	overflow: hidden;
@@ -146,5 +139,22 @@ th, td {
 	text-align: center;
 }
 
-
-
+	
+	a:link {
+		color: blue;
+		position: relative;
+		
+	}
+	
+	a:visited {
+		color: red;
+	}
+	a:hover {
+		text-shadow: 0 0 3px red, 0 0 6px purple;
+	}
+	
+	footer {
+		
+		border-top: solid 3px;
+		border-color: darkgreen;		
+	}
