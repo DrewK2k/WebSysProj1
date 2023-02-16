@@ -29,6 +29,7 @@ img {
 }
 
 #photo1 {
+	position: relative;
 	width: 80px;
 	height: 30px;
 	float: right;
