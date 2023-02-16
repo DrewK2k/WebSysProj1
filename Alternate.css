@@ -107,8 +107,8 @@ th, td {
 	-webkit-text-stroke: 1px black;
 }
 
-li {
-	 color: black;
+span {
+	 	color: red;
 		font-size: 14pt;
 		text-align: center;
 		border: solid 3px;
