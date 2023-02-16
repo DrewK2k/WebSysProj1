@@ -2,6 +2,20 @@
 
 <html lang="en">
 	<head>
+		<script>
+  <!--reference https://www.geeksforgeeks.org/how-to-switch-between-multiple-css-stylesheets-using-javascript/ -->
+  function toggleStyle() {
+
+            var Style = document.getElementsByTagName('link')[0];
+ 
+            if (Style.getAttribute('href') == 'main.css') {
+                Style.setAttribute('href', 'Alternate.css');
+            } else {
+                Style.setAttribute('href', 'main.css');
+            }
+        }
+		</script>
+		
 		<meta charset="UTF-8">
 		<title>CyberStudents</title>
 		<link href="main.css" rel="stylesheet">
@@ -151,7 +165,7 @@
 			</p>
 		</div>
 		
-		
+		<button onclick="toggleStyle()">Switch Themes</button>
 		
 		<footer style="text-align: right;">Group 8 &copy; 2023 All Rights Reserved</footer>
 	</body>
