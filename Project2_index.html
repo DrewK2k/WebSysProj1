@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<script>
+  <!--reference https://www.geeksforgeeks.org/how-to-switch-between-multiple-css-stylesheets-using-javascript/ -->
+  function toggleStyle() {
+
+            var Style = document.getElementsByTagName('link')[0];
+ 
+            if (Style.getAttribute('href') == 'main.css') {
+                Style.setAttribute('href', 'Alternate.css');
+            } else {
+                Style.setAttribute('href', 'main.css');
+            }
+        }
+		</script>
+		
+		<meta charset="UTF-8">
+		<title>Cyber Students</title>
+		<link href="main.css" rel="stylesheet">
+		<img src="seal.png" alt="usf" class="logo" width="200" height="250">
+	</head>
+	<body>
+		<header>
+		<nav>
+				<div class="navtest">
+					<a href="index.html">HOME</a>
+					<a href="index_alt.html">STUDENT</a>
+				</div>
+			</nav>
+			<h1>Cybersecurity</h1>
+		</header>
+			<p>Cybersecurity is incredibly valueable as technology continues to
+				develop. Businesses in this day and age utilizes various online services
+				and tools for their operations. With this growth in becoming more 
+				web-dependent, the dangers grow substantially. What cybersecurity
+				focuses on is the protection of information and data from unauthorized access.
+			</p>
+		<div>
+			<h2 class="subheading">
+				What is it?
+			</h2>
+				<p>
+					Cybersecurity, is essentially the practice of deploying policies and procesess through technology
+					to protect organizations, their critical systems, and their sensitive information from digital attacks.
+				</p>
+
+				<h2 class="subheading">
+					Common Types of Attacks Include:
+				</h2>
+					<span id="photo"><img src="phishing.jpg" alt="mail"></span>
+
+		<ul class="listed">
+			<li>
+				<strong>
+					<u>Social-Engineering-Based Attacks</u>
+				<br>
+				</strong>
+					<span id="listcontent">
+						Social-engineering attacks focuses on exploiting users into giving away their personal information. Common methods that attackers will do is phishing, vishing,
+						SPAM, spear phishing, etc. These are some of the most common types of attack. 
+					</span>
+				</li>
+				
+				<br><li>
+					<strong>
+						<u>Password-Related Attacks</u>
+					<br>	
+					</strong>
+						<span id="listcontent">
+							Attackers will deploy software of other techniques to find out commonly
+							used passwords so they can exploit it to gain access to confidential information, data, or assets. Techniques may include Brute Forcing into your account, where the attacker will continually guess passwords,
+							Password Spray, where attackers uses common passwords to attempt to access several accounts, or Dictionary Attack, where users will use a "dictionary" list to generate passwords.
+						</span>
+						
+				</li>
+					<br><span id="photo1"><img src="ransomware.png" alt="ransom"></span>
+				<br><li>
+					<strong>
+						<u>Ransomware</u>
+					<br>	
+					</strong>
+						<span id="listcontent"; overflow: break-word;>
+							Malicious software is integrated into the victim's organizational systems
+							and will "control" the OS and threaten the owner <br> with releasing data until the ransom
+							is paid.
+						</span>
+				</li>
+				<br><li>
+					<strong>
+						<u>Denial of Service Attack (DoS)</u>
+					<br>
+					</strong>
+						<span id="listcontent">
+							An attack meant to shut down a machine or network, making it inaccessible to its intended users. The way these attacks can initiate is through flooding their target(s) with traffic using large number of
+							legitimate user accounts (i.e. employees, members, or account holders) of the resource they expected.
+						</span>
+				</li>
+			</ul>
+		</div>
+
+		<div>
+			<p id="ptest">
+				Below showcases the change in growth of Cybersecurity Professionals &darr;
+			</p>
+		</div>
+		
+		<div>
+			<img id="fbis" src="fbi.png" alt="fbi">
+			<img id="cia" src="cialogo.png" alt="cialogo"></a>
+			<table id="table">
+				<caption id="tablecaption"><strong>Projected Demand for CyberSecurity Skills<strong></caption>
+			<tr>
+				<th>Skills</th>
+				<th>2018 Job Openings</th>
+				<th>2018-2023 5-Year Projected Growth</th>
+			</tr>
+			<tr>
+				<th>Public Cloud Security</th>
+				<td>1,333</td>
+				<td>170%</td>
+			</tr>
+			<tr>
+				<th>IoT Network Security</th>
+				<td>1,092</td>
+				<td>144%</td>
+			</tr>
+			<tr>
+				<th>Cybersecurity Analyist</th>
+				<td>3,184</td>
+				<td>120%</td>
+			</tr>
+			<tr>
+				<th>Dynamic Application Security Testing</th>
+				<td>1,892</td>
+				<td>120%</td>
+			</tr>
+			<tr>
+				<th>Cloud Security Archeitecture</th>
+				<td>1,902</td>
+				<td>113%</td>
+			</tr>
+			
+			</table>
+		</div>
+
+		<div>
+			<h2 class="subheading">
+				Learn More About Us:
+			</h2>
+		</div>
+			<p>
+			From threat assessments to penetration testing, security professionals are continously working to find new and innovative solutions
+			to combat against cybercrime. Organizations such as the <a href="https://www.cia.gov/" target="_blank">C.I.A</a>, or the<a href="https://www.fbi.gov/" target="_blank">F.B.I</a>
+			are some of the most well known agencies that dedicates their lives to the security and protection of the country. 
+			</p>
+			
+			<p>
+			Cybersecurity Professionals are in constant demand everyday. Resources to learn are available all over the internet. You just got to know where to look!
+			</p>
+			
+			<p>
+			If you'd like to know more about the students who created this website, please click on the "STUDENTS" tab at the top of the navigation menu. 
+			</p>
+		</div>
+		
+		<button onclick="toggleStyle()">Switch Themes</button>
+		
+		<footer style="text-align: right;">Group 8 &copy; 2023 All Rights Reserved</footer>
+	</body>
+</html>
