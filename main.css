@@ -144,6 +144,7 @@ th, td {
 	border-collapse: collapse;
 	border-radius: 10px;
 	padding: 5px;
+	outline-style: 2px solid green;
 	
 }
 	
