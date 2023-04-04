@@ -174,10 +174,10 @@ th, td {
 	
 
 #carouselHero .carousel-item img {  
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   overflow: hidden;
-  height:200vh;
+  height:110vh;
 }
 
 #carouselHero .carousel-item:before {
@@ -190,6 +190,6 @@ th, td {
   display: block;
   position: absolute;
   top: 0;
-  width: 200vw;
-  height: 200vh;
+  width: 110vw;
+  height: 110vh;
 }
