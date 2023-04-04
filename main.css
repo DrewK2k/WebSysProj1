@@ -154,13 +154,13 @@ th, td {
 
 	
 	a:link {
-		color: blue;
+		color: gold;
 		position: relative;
 		
 	}
 	
 	a:visited {
-		color: red;
+		color: green;
 	}
 	a:hover {
 		text-shadow: 0 0 3px red, 0 0 6px purple;
