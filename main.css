@@ -187,6 +187,14 @@ th, td {
 		border-top: solid 3px;
 		border-color: darkgreen;		
 	}
+
+#carouselcaption {
+	font-family: GT America Extended, Times New Roman;
+	text-decoration: underline;
+	padding: 5px;
+	text-align: center;
+	font-size: 25px;
+}
 	
 .carousel-control-next,
 .carousel-control-prev, .carousel-indicators {
