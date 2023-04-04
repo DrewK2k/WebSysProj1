@@ -128,7 +128,7 @@ https://www.ibm.com/blogs/ibm-training/new-cybersecurity-threat-not-enough-talen
 	font-size: 18px;
 	margin-left: auto;
 	margin-right: auto;
-	border: 2px solid green!important;
+	border: 2px solid green;
 }
 
 #tablecaption {
@@ -140,11 +140,24 @@ https://www.ibm.com/blogs/ibm-training/new-cybersecurity-threat-not-enough-talen
 }
 
 th, td {
-	border: 2px solid green!important;
+	border: 2px solid green;
 	border-collapse: collapse;
 	border-radius: 10px;
 	padding: 5px;
 	
+}
+
+#thead {
+	font-family: GT America Extended, Times New Roman;
+	font-size: 18px;
+	text-align: center;
+}
+
+#tdata{
+	font-family: GT America Extended, Times New Roman;
+	font-size: 18px;
+	text-align: center;
+	border: 2px solid green;
 }
 	
 
