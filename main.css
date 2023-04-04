@@ -128,7 +128,6 @@ https://www.ibm.com/blogs/ibm-training/new-cybersecurity-threat-not-enough-talen
 	font-size: 18px;
 	margin-left: auto;
 	margin-right: auto;
-	border: 2px solid green;
 	
 }
 
@@ -147,17 +146,10 @@ th, td {
 	padding: 5px;
 	
 }
-
-
-td { 
+	
+table td, th{
 	border: 2px solid green;
 }
-
-
-th {
-	text-align: center;
-}
-	
 
 th, td {
 	background-color: #F1E5AC;
