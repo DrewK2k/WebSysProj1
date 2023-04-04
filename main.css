@@ -188,12 +188,12 @@ th, td {
 		border-color: darkgreen;		
 	}
 
-#carouselcaption {
+.carouselcaption {
 	font-family: GT America Extended, Times New Roman;
-	text-align: center;
 	font-size: 25px;
 	color: #EEBC1D;
 	-webkit-text-stroke: 1px black;
+	text-align: center;
 }
 	
 .carousel-control-next,
