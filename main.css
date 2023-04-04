@@ -152,9 +152,6 @@ th, td {
 	font-size: 18px;
 	text-align: center;
 	border: 2px solid green;
-	border-collapse: collapse;
-	border-radius: 10px;
-	padding: 5px;
 }
 
 #tdata{
@@ -162,6 +159,13 @@ th, td {
 	border-collapse: collapse;
 	border-radius: 10px;
 	padding: 5px;
+}
+
+#tdata2{
+	font-family: GT America Extended, Times New Roman;
+	font-size: 18px;
+	text-align: center;
+	border: 2px solid green;
 }
 	
 
