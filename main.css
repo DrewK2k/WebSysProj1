@@ -173,23 +173,5 @@ th, td {
 	}
 	
 
-#carouselHero .carousel-item img {  
-  object-fit: scale-down;
-  object-position: center;
-  overflow: hidden;
-  height: 90vh;
-}
 
-#carouselHero .carousel-item:before {
-  content: "";
-  background-image:
-    linear-gradient(
-      to bottom,
-      transparent, rgba(0,0,0,0.5)
-    );
-  display: block;
-  position: absolute;
-  top: 0;
-  width: 90vw;
-  height: 90vh;
-}
+
