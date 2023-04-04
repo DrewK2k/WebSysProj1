@@ -141,12 +141,23 @@ https://www.ibm.com/blogs/ibm-training/new-cybersecurity-threat-not-enough-talen
 }
 
 th, td {
+	border: 2px solid green;
 	border-collapse: collapse;
 	border-radius: 10px;
 	padding: 5px;
-	border-right: 2px solid green;
 	
 }
+
+
+td { 
+	border: 2px solid green;
+}
+
+
+th {
+	text-align: center;
+}
+	
 
 th, td {
 	background-color: #F1E5AC;
